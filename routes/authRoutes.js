@@ -6,6 +6,5 @@ const router = Router();
 
 router.post('/register', register);
 router.post('/login', login);
-// ... rutas existentes ...
-router.post('/google-login', googleLogin); // NUEVA RUTA
+router.post('/google-login', googleLogin); 
 export default router;
