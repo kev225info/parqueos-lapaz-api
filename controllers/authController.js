@@ -1,7 +1,6 @@
 import pool from '../config/db.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { OAuth2Client } from 'google-auth-library';
 
 // REGISTRAR USUARIO
 export const register = async (req, res) => {
